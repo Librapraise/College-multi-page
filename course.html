@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Page Web Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/eduford_img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+    <!------course------->
+    <!---course-->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>We offer diverse range of courses within your reach</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermidiate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Cupiditate, est minus! Dolor, nobis et? Natus inventore aut, quam,
+            quos eligendi iure, non dolor modi ad dolore aperiam itaque quasi
+            necessitatibus!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Cupiditate, est minus! Dolor, nobis et? Natus inventore aut, quam,
+            quos eligendi iure, non dolor modi ad dolore aperiam itaque quasi
+            necessitatibus!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Cupiditate, est minus! Dolor, nobis et? Natus inventore aut, quam,
+            quos eligendi iure, non dolor modi ad dolore aperiam itaque quasi
+            necessitatibus!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+      <h1>Our Facilties</h1>
+      <p>We have a wide range of effective and top-notch facilties</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="/eduford_img/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet vero
+            voluptates accusamus tempora nulla eum totam architecto hic fugiat
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="/eduford_img/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet vero
+            voluptates accusamus tempora nulla eum totam architecto hic fugiat
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="/eduford_img/cafeteria.png" />
+          <h3>Tasty And Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet vero
+            voluptates accusamus tempora nulla eum totam architecto hic fugiat
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!------footer------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dicta.
+        Molestiae odio labore id esse cum nemo asperiores! Accusamus debitis
+        <br />
+        reprehenderit sapiente cum animi laboriosam, voluptatum aspernatur odio
+        magnam atque!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Libra</p>
+    </section>
+    <!------Javascript for toggle menu------->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showmenu() {
+        navlinks.style.right = "0px";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-230px";
+      }
+    </script>
+  </body>
+</html>
